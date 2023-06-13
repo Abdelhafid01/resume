@@ -22,6 +22,9 @@
     position: relative;
     z-index: 20;
 }
+#home .color {
+    color: #b93366;
+}
 @media (min-width: 992px) {
     #home {
         height: calc(100% - 65px);
@@ -30,7 +33,7 @@
 
 /** BG Default */
 #home.home-bg-static {
-    background-image: url("../images/bg-home-1.jpg");
+    background-image: url("../images/programming-with-laptop.jpg");
 }
 
 /** BG Parallax */

@@ -1,7 +1,7 @@
 <?php
 
 // Replace with your email 
-$mail_to = 'your_email@your_domain.com';
+$mail_to = 'abdelhafid1@yahoo.com';
 
 if (isset($_POST['name']) && isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) && isset($_POST['subject']) && isset($_POST['message']))
 {
